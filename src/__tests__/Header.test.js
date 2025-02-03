@@ -1,6 +1,8 @@
 import "@testing-library/jest-dom";
 import { render, screen } from "@testing-library/react";
 import Header from "../components/Header";
+ // Adjust this if the file is elsewhere
+
 
 test("renders a <header> element", () => {
   const { container } = render(<Header />);
